@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <title>Summer Camp Registration Form</title>
+</head>
+<body>
+    <header id="mainHead">
+        <h1>SUMMER CAMP REGISTRATION FORM</h1>
+    </header>
+
+    <div class="row">
+        <div class="col-3">
+            <ul>
+                <li><a href="#section1">Student Information</a></li>
+                <li><a href="#section2">Parent/Guardian Information</a></li>
+                <li><a href="#section3">Medical Information</a></li>
+                <li><a href="#section4">Informed Consent & Acknowledgement</a></li>
+                <li><a href="#section5">Medical Release & Authorization</a></li>
+                <li><a href="#section6">Confirmation</a></li>
+            </ul>
+        </div>
+        <div class="col-9">
+            <form>
+            <!-- Student Information -->
+            <fieldset id="section1">
+                <legend>Student Information</legend>
+                <input type="text" placeholder="First Name" required />
+                <input type="text" placeholder="Last Name" /> <br />
+                <label for="dob">Date of Birth
+                    <input type="date" name="dob" placeholder="DOB" />
+                </label>
+                <label >Grade
+                    <select name="grade">
+                        <option name="grade" value="1"> 1</option>
+                        <option name="grade" value="2"> 2</option>
+                        <option name="grade" value="3"> 3</option>
+                        <option name="grade" value="4"> 4</option>
+                        <option name="grade" value="5"> 5</option>
+                        <option name="grade" value="6"> 6</option>
+                        <option name="grade" value="7"> 7</option>
+                        <option name="grade" value="8"> 8</option>
+                        <option name="grade" value="9"> 9</option>
+                        <option name="grade" value="10"> 10</option>
+                    </select>
+                </label><br />
+                <label for="gender">Gender
+                    <input type="radio" name="gender" value="Male" checked/>Male
+                    <input type="radio" name="gender" value="Female"/>Female
+                    <input type="radio" name="gender" value="Other" />Other
+                </label><br />
+                <label>Address
+                    <input type="text" placeholder="Flat/House/Street Number" />
+                    <input type="text" placeholder="Address Line 1" />
+                    <input type="text" placeholder="Address Line 2" />
+                    <input type="text" placeholder="City" />
+                    <input type="text" placeholder="State" />
+                    <input type="number" placeholder="Pin Code" />
+                </label>
+            </fieldset>
+
+            <!-- Parent/Guardian Information -->
+            <fieldset id="section2">
+                <legend>Parent/Guardian Information</legend>
+                    <input type="text" placeholder="First Name" />
+                    <input type="text" placeholder="Last Name" /><br />
+                    <input type="number" maxlength="10" placeholder="Phone Number" />
+                    <input type="number" maxlength="10" placeholder="Alternamet Phone Number" /><br />
+                    <input type="email" placeholder="Email ID" />
+            </fieldset>
+
+            <!-- Medical Information -->
+            <fieldset id="section3">
+                <legend>Medical Information</legend>
+                <input type="text" placeholder="Physician Name" required/><br />
+                <input type="text" placeholder="Phone Number" required/><br />
+                <textarea placeholder="Enter your medical concerns here... " rows="4" cols="20"></textarea>
+            </fieldset>
+
+            <!-- Informed Consent & Acknowledgement -->
+            <fieldset id="section4">
+                <legend>Informed Consent & Acknowledgement</legend>
+                <p>I hereby give my approval for my child's participation in any and all activities prepared by {Organization} during the selected camp. In exchange, for the acceptance of said child's candidacy by {Organization}, I assume all risk and hazard accidental to the conduct of the activities, and release, absolve and hold harmless {Organization} and all its respective officers, agents, and representatives from any and all liability for injuries to said child arising out of traveling to, participating in, or returning from selected camp sessions. In case of injury tot he said child, I hereby waive all claims against {Organization} including all coaches and affiliates, all participants, sponsorig agencies, advertisers, and , if applicable, owners and lessors of premises used to conduct the event. There is a risk of being injured that is inherent in all sports activities, including basketball. Some of these injuries include, but are not limited to, the risk of fracture, paralysis and death. </p>
+            </fieldset>
+
+            <!-- Medical Release & Authorization -->
+            <fieldset id="section5">
+                <legend>Medical Release & Authorization</legend>
+                <p>As parent and/or guardian of the named student, I hereby authirize the diagnosis and treatment by a qualified and licensed medical professional, of the minor child, in the event of a medical emergency, which in the opinion of the attending medical professional, requires immediate attention to prevent further endangerment of the minor's life, physical disfigurment, physical impairment, or other undue pain, suffering or discomfort, if delayed. Permission is hereby granted to the attending physician to proceed with any medical or minor surgical treatment, x-ray examination and immunizationsfor the named student. In the event of an emergency arising out of serious illness, the need for major surgery, or significantly accidental injury, I understand that every attempt will be made by the attending physician to contact e in the most expeditious way possible. This authorization is granted only after a reasonable effort has been made to reach me.Permission is also granted to the {Organization} and its affiliates including Directors, Coaches and Team Parentsto provide the needed emergency treatment prior to the child's admission to the medical facility. Releaseauthorized and executed of my own free will, with th sole purpose of authorizing medical treatment under emergency circumstances, for the protection of life and limb of the named minor child, in my absence. </p>
+            </fieldset>
+
+            <!-- Confirmation -->
+            <fieldset id="section6">
+                <legend>Confirmation</legend>
+                    <p>BY ACKNOWLEDGING AND SIGNING BELOW, I AM DELIVERING AN ELECTRONIC SIGNATURE THAT WILL HAVE THE SAME EFFECT AS AN ORIGINAL MANUAL PAPER SIGNATURE. THE ELECTRONIC SIGNATURE WILL BE EQUALLY AS BINDING AS AN ORIGINAL MANUAL PAPER SIGNATURE</p>
+                    <button>Submit</button>
+            </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <h3>Designed with love</h3>
+    </footer>
+</body>
+</html>
